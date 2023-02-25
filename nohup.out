@@ -1,0 +1,190 @@
+CompileCommand: exclude com/intellij/openapi/vfs/impl/FilePartNodeRoot.trieDescend bool exclude = true
+2023-02-25 12:42:00,589 [   4789]   WARN - #c.i.e.RunManager - Must be not called before project components initialized
+Info  | RdCoroutineScope          | 28:DefaultDispatcher-worker-17 | RdCoroutineHost overridden 
+2023-02-25 12:42:01,697 [   5897]   WARN - #o.j.i.maven - Using extension org.jetbrains.idea.maven.maven3.Maven3Support@eade0a7 to start MavenServer
+Unable to find full path for "docker-compose"
+2023-02-25 12:45:55,076 [ 239276]   WARN - #c.i.e.c.PtyCommandLine - Couldn't run process with PTY
+java.io.IOException: Exec_tty error:Unknown reason
+	at com.pty4j.unix.UnixPtyProcess.execInPty(UnixPtyProcess.java:222)
+	at com.pty4j.unix.UnixPtyProcess.<init>(UnixPtyProcess.java:62)
+	at com.pty4j.PtyProcessBuilder.start(PtyProcessBuilder.java:147)
+	at com.intellij.execution.process.ProcessServiceImpl.startPtyProcess(ProcessServiceImpl.kt:37)
+	at com.intellij.execution.configurations.PtyCommandLine.startProcessWithPty(PtyCommandLine.java:168)
+	at com.intellij.execution.configurations.PtyCommandLine.startProcess(PtyCommandLine.java:112)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:349)
+	at com.intellij.docker.cli.CliExecutor.doCreateProcess(CliExecutor.kt:151)
+	at com.intellij.docker.cli.CliExecutor.createAsyncCliProcess(CliExecutor.kt:129)
+	at com.intellij.docker.cli.CliExecutor.doExecAsync(CliExecutor.kt:101)
+	at com.intellij.docker.agent.cli.Cli$Base.execAsync(Cli.kt:126)
+	at com.intellij.docker.agent.cli.Cli.execAsync(Cli.kt:60)
+	at com.intellij.docker.agent.cli.Cli.execAsync$default(Cli.kt:50)
+	at com.intellij.docker.runtimes.ComposeApplicationRuntime.executeCli$lambda-6(ComposeApplicationRuntime.kt:210)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-25 12:56:07,526 [ 851726]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.postgresql:postgresql::42.5.4, was also in node: null
+2023-02-25 12:56:07,526 [ 851726]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.springframework.boot:spring-boot-starter-data-jpa::3.0.3, was also in node: null
+2023-02-25 12:56:07,526 [ 851726]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.springframework.boot:spring-boot-starter-aop::3.0.3, was also in node: null
+2023-02-25 12:56:07,527 [ 851727]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.aspectj:aspectjweaver::1.9.19, was also in node: null
+2023-02-25 12:56:07,527 [ 851727]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.springframework.boot:spring-boot-starter-jdbc::3.0.3, was also in node: null
+2023-02-25 12:56:07,527 [ 851727]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.springframework:spring-jdbc::6.0.5, was also in node: null
+2023-02-25 12:56:07,527 [ 851727]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.springframework:spring-tx::6.0.5, was also in node: null
+2023-02-25 12:56:07,527 [ 851727]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.hibernate.orm:hibernate-core::6.1.7.Final, was also in node: null
+2023-02-25 12:56:07,527 [ 851727]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.hibernate.common:hibernate-commons-annotations::6.0.6.Final, was also in node: null
+2023-02-25 12:56:07,527 [ 851727]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.glassfish.jaxb:jaxb-runtime::4.0.2, was also in node: null
+2023-02-25 12:56:07,527 [ 851727]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.glassfish.jaxb:jaxb-core::4.0.2, was also in node: null
+2023-02-25 12:56:07,527 [ 851727]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.eclipse.angus:angus-activation::2.0.0, was also in node: null
+2023-02-25 12:56:07,527 [ 851727]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.glassfish.jaxb:txw2::4.0.2, was also in node: null
+2023-02-25 12:56:07,527 [ 851727]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.springframework.data:spring-data-jpa::3.0.2, was also in node: null
+2023-02-25 12:56:07,527 [ 851727]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.springframework.data:spring-data-commons::3.0.2, was also in node: null
+2023-02-25 12:56:07,527 [ 851727]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.springframework:spring-orm::6.0.5, was also in node: null
+2023-02-25 12:56:07,527 [ 851727]   WARN - #c.i.b.BuildTreeConsoleView - start event id collision found:Downloading org.springframework:spring-aspects::6.0.5, was also in node: null
+Unable to find full path for "docker-compose"
+Unable to find full path for "docker-compose"
+Unable to find full path for "docker-compose"
+Unable to find full path for "docker-compose"
+2023-02-25 13:00:09,193 [1093393]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 13:01:19,111 [1163311]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 13:04:38,171 [1362371] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:04:38,172 [1362372] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:04:38,655 [1362855] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:04:39,161 [1363361] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:04:39,162 [1363362] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:04:39,665 [1363865] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:04:40,170 [1364370] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:04:40,171 [1364371] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:04:40,676 [1364876] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:04:40,951 [1365151] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:37,147 [1421347] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:37,148 [1421348] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:37,652 [1421852] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:37,653 [1421853] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:38,156 [1422356] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:38,662 [1422862] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:38,663 [1422863] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:39,167 [1423367] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:39,672 [1423872] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:39,673 [1423873] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:43,267 [1427467] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:43,267 [1427467] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:43,283 [1427483] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:43,283 [1427483] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:43,316 [1427516] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:43,316 [1427516] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:43,784 [1427984] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:44,288 [1428488] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:44,288 [1428488] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:44,791 [1428991] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:45,296 [1429496] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:45,296 [1429496] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:45,800 [1430000] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:46,306 [1430506] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:46,307 [1430507] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:46,808 [1431008] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:47,313 [1431513] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:47,314 [1431514] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:47,816 [1432016] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:48,321 [1432521] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:48,322 [1432522] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:48,824 [1433024] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:49,163 [1433363] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:49,163 [1433363] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:49,212 [1433412] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:49,213 [1433413] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:49,473 [1433673] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:49,473 [1433673] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:51,615 [1435815] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:51,615 [1435815] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:51,968 [1436168]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 13:05:51,992 [1436192] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:05:51,992 [1436192] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:10:17,390 [1701590]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 13:11:11,031 [1755231]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 13:13:47,699 [1911899]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 13:14:09,655 [1933855]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 13:14:12,122 [1936322] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:14:12,122 [1936322] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:14:12,137 [1936337] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:14:12,137 [1936337] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:14:12,174 [1936374] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:14:12,175 [1936375] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:14:12,631 [1936831] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:14:12,632 [1936832] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:14:12,693 [1936893] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:14:12,694 [1936894] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:14:12,853 [1937053] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:14:12,854 [1937054] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:14:13,135 [1937335] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-02-25 13:14:13,502 [1937702] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+CompileCommand: exclude com/intellij/openapi/vfs/impl/FilePartNodeRoot.trieDescend bool exclude = true
+2023-02-25 13:49:58,234 [   8209]   WARN - #c.i.e.RunManager - Must be not called before project components initialized
+Info  | RdCoroutineScope          | 18:DefaultDispatcher-worker-7 | RdCoroutineHost overridden 
+2023-02-25 13:49:59,376 [   9351]   WARN - #o.j.i.maven - Using extension org.jetbrains.idea.maven.maven3.Maven3Support@20894d65 to start MavenServer
+2023-02-25 13:50:21,229 [  31204]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 13:54:24,333 [ 274308]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 14:06:46,404 [1016379]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 14:08:01,148 [1091123]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 14:15:36,192 [1546167]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 14:19:33,188 [1783163]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 14:23:50,029 [2040004]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 14:25:16,504 [2126479]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 14:26:21,224 [2191199]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 14:27:08,628 [2238603]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 14:28:21,546 [2311521]   WARN - #c.i.o.r.u.c.SdkDetector - No version is returned for detected SDK IDEA JDK at /opt/idea-IC-223.7571.182
+2023-02-25 14:28:30,125 [2320100]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 14:28:41,435 [2331410]   WARN - #c.i.i.s.download - Shared indexes download was cancelled. Indexing has completed faster
+2023-02-25 14:29:03,961 [2353936]   WARN - #c.i.o.r.u.c.SdkDetector - No version is returned for detected SDK IDEA JDK at /opt/idea-IC-223.7571.182
+2023-02-25 14:29:13,791 [2363766]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 14:29:24,496 [2374471]   WARN - #o.j.i.maven - Using extension org.jetbrains.idea.maven.maven3.Maven3Support@20894d65 to start MavenServer
+2023-02-25 14:30:11,829 [2421804]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 14:42:53,644 [3183619]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 14:50:07,538 [3617513]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-02-25 14:51:51,775 [3721750] SEVERE - #c.i.o.v.n.RefreshQueueImpl - null
+org.jetbrains.concurrency.AsyncPromise$Companion$CANCELED$1
+2023-02-25 14:51:51,776 [3721751] SEVERE - #c.i.o.v.n.RefreshQueueImpl - IntelliJ IDEA 2022.3  Build #IC-223.7571.182
+2023-02-25 14:51:51,776 [3721751] SEVERE - #c.i.o.v.n.RefreshQueueImpl - JDK: 17.0.5; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2023-02-25 14:51:51,776 [3721751] SEVERE - #c.i.o.v.n.RefreshQueueImpl - OS: Linux
+CompileCommand: exclude com/intellij/openapi/vfs/impl/FilePartNodeRoot.trieDescend bool exclude = true
+2023-02-25 18:23:40,401 [  15351]   WARN - #c.i.e.RunManager - Must be not called before project components initialized
+Info  | RdCoroutineScope          | 21:DefaultDispatcher-worker-10 | RdCoroutineHost overridden 
+2023-02-25 18:23:41,718 [  16668]   WARN - #o.j.i.maven - Using extension org.jetbrains.idea.maven.maven3.Maven3Support@486b46e8 to start MavenServer
+2023-02-25 18:23:44,100 [  19050]   WARN - #c.i.o.a.i.ActionUpdater - 499 ms to grab EDT for ToolWindowHeader$2#update@ToolwindowTitle (com.intellij.toolWindow.ToolWindowHeader$2)
+2023-02-25 18:25:44,369 [ 139319]   WARN - #git4idea.push.GitPushTargetPanel - Couldn't add remote: remote origin already exists.
+2023-02-25 18:26:05,976 [ 160926]   WARN - #git4idea.push.GitPushTargetPanel - Couldn't add remote: remote origin already exists.
+2023-02-25 18:26:44,216 [ 199166] SEVERE - #c.i.u.c.QueueProcessor - Cannot create light service git4idea.repo.GitRepositoryManager because container is already disposed (container=Project(name=spring-boot-example, containerState=DISPOSE_COMPLETED, componentStore=/dados/Documents/Cursos/AmigosCode_Spring_Boot/spring-boot-example) (disposed))
+com.intellij.serviceContainer.AlreadyDisposedException: Cannot create light service git4idea.repo.GitRepositoryManager because container is already disposed (container=Project(name=spring-boot-example, containerState=DISPOSE_COMPLETED, componentStore=/dados/Documents/Cursos/AmigosCode_Spring_Boot/spring-boot-example) (disposed))
+	at com.intellij.serviceContainer.ContainerUtilKt.throwAlreadyDisposedError(containerUtil.kt:40)
+	at com.intellij.serviceContainer.ComponentManagerImpl.checkThatCreatingOfLightServiceIsAllowed(ComponentManagerImpl.kt:755)
+	at com.intellij.serviceContainer.ComponentManagerImpl.getOrCreateLightService(ComponentManagerImpl.kt:727)
+	at com.intellij.serviceContainer.ComponentManagerImpl.doGetService(ComponentManagerImpl.kt:691)
+	at com.intellij.serviceContainer.ComponentManagerImpl.getService(ComponentManagerImpl.kt:635)
+	at git4idea.repo.GitRepositoryManager.getInstance(GitRepositoryManager.java:46)
+	at git4idea.ui.branch.BranchIconUtil$Companion.getBranchIcon(BranchIconUtil.kt:31)
+	at git4idea.ui.branch.GitBranchWidget.getIcon(GitBranchWidget.java:68)
+	at git4idea.ui.branch.GitBranchWidget.getIcon(GitBranchWidget.java:39)
+	at com.intellij.dvcs.ui.DvcsStatusWidget.lambda$updateLater$0(DvcsStatusWidget.java:191)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:241)
+	at com.intellij.util.Alarm$Request.runSafely(Alarm.java:377)
+	at com.intellij.util.Alarm$Request.run(Alarm.java:366)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:272)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:243)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:29)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:216)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:212)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:205)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-25 18:26:44,217 [ 199167] SEVERE - #c.i.u.c.QueueProcessor - IntelliJ IDEA 2022.3  Build #IC-223.7571.182
+2023-02-25 18:26:44,217 [ 199167] SEVERE - #c.i.u.c.QueueProcessor - JDK: 17.0.5; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2023-02-25 18:26:44,217 [ 199167] SEVERE - #c.i.u.c.QueueProcessor - OS: Linux
